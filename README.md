@@ -1,5 +1,5 @@
 # Named-Entity-Recognition
-NER with Tensorflow and Flask
+NER using Bi-directional LSTM with Tensorflow and Deploying it to a web application created using Flask.
 
 ### Step 1
 Create Virtual Environment 
