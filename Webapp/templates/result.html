@@ -1,0 +1,47 @@
+<html>
+   <body>
+        <h1> Result </h1>
+        <h3> 
+            Scrapped Article
+        </h3>
+        <p>
+            {{data.article}}
+        </p>
+        <h3>
+            Sentence Sequence
+        </h3>
+        <p>
+            {{ data.test }}
+        </p>
+
+        <!-- <h3>
+            Word2idx
+        </h3>
+        <p>
+            {{ data.word2idx }}
+        </p> -->
+
+        <h3>
+            Predicted Sequence
+        </h3>
+        <p>
+            {{ data.pred }}
+        </p>
+
+        <h3>
+            Name
+        </h3>
+        <p>
+            {% for name in data.name %}
+            {{ data.name }}
+            {% endfor%}
+        </p>
+
+        <h3>
+            Organization
+        </h3>
+        <p>
+            {{ data.org }}
+        </p>
+   </body>
+</html>
